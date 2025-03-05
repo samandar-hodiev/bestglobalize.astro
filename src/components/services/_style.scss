@@ -1,0 +1,20 @@
+.serviseCard {
+    border: 1px solid gray;
+}
+
+.serviseCard:hover {
+    background: #060040;
+    transition: all 0.3s;
+}
+
+.serviseCard span i {
+    color: #060040;
+}
+
+.serviseCard:hover p {
+    color: white;
+}
+
+.serviseCard:hover i {
+    color: white;
+}

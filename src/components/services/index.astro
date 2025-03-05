@@ -1,0 +1,54 @@
+---
+import "./_style.scss";
+import { servicesData } from "@mocks/index";
+---
+
+<section id="service" class="w-full h-auto  bg-white py-20">
+  <div class="container mx-auto">
+    <div>
+      <div class=" flex flex-col justify-center items-center gap-y-5">
+        <p class="text-center text-[#060040] text-xl font-medium">
+          Xizmatlar
+        </p>
+        <h4 class="text-center text-[#262B3F] font-medium">
+          Biz nimani taklif qilishimiz
+        </h4>
+        <p class="text-[#9B9B9B] text-center">
+          Qarorlar mutaxassislar tomonidan qabul qilinadi. Biz yuqori sifatli
+          xizmat ko'rsatishni kafolatlaymiz.
+        </p>
+
+       <div class="mt-10">
+        <button class="btn">
+          <span class="text-white">Jismoniy Shaxslar Uchun</span>
+        </button>
+       </div>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-between gap-[60px] mt-10">
+        {
+          servicesData?.map((item: any) => {
+            return (
+              <div class="serviseCard w-[610px] h-[240px] rounded-2xl relative pr-6">
+                <span class="absolute  text-5xl top-[30px] left-[40px] ">
+                  <i class={item.icon} />
+                </span>
+                <p class="black pl-6 text-[22px] text-black absolute top-[29px] left-[85px] font-medium">
+                  {item.title}
+                </p>
+                <p class="text-[#959595] absolute top-20 left-[85px] pr-4 font-normal">
+                  {item.description}
+                </p>
+              </div>
+            );
+          })
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+

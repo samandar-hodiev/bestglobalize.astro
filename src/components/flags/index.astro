@@ -1,0 +1,51 @@
+---
+import "./__style.scss";
+
+const flag1 = "../../../public/bu-flag.gif";
+const flag2 = "../../../public/ks-flag.gif";
+const flag3 = "../../../public/lo-flag.gif";
+const flag4 = "../../../public/pl-flag.gif";
+---
+
+<section class="bg-[#F9FAFF] w-full pt-12 pb-20">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col items-center gap-y-12">
+      <div
+        class="w-[600px] flex items-center flex-col bg-[#FAEDD8] px-12 py-2 rounded-xl"
+      >
+        <p class="text-[#060040] font-normal px-3 text-xl">Biz bilan</p>
+        <p class="text-center text-[#060040] font-medium text-2xl">
+          Hamkorlikda ishlayotgan davlatlar
+        </p>
+      </div>
+      <div>
+        <div class="carousel carousel-end w-full h-[200px]">
+          <div class="carousel-item">
+            <img src={flag1} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag2} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag3} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag4} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag1} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag2} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag3} alt="flag" />
+          </div>
+          <div class="carousel-item">
+            <img src={flag4} alt="flag" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -2,130 +2,55 @@
 import "./__styles.scss";
 ---
 
-<section class="bg-white w-full h-[500px] pt-12 pb-20">
+<section class="bg-white w-full h-auto pt-12 pb-20">
   <div class="container mx-auto px-6 gap-y-12 flex flex-col">
     <p class="text-5xl text-center text-[#333333] font-bold">
       Tez-tez beriladigan savollarga javoblar
     </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class='accordion-group' data-accordion="default-accordion">
-  <div class='accordion pb-4 border-b border-solid border-gray-200' id='basic-heading-one-default'>
-  <button class='accordion-toggle group accordion-active:text-indigo-600 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 active:text-indigo-600' aria-controls='basic-collapse-one-default'>
-  <h5> How to create an account? </h5>
-  <svg class='text-gray-900 transition duration-500 group-hover:text-indigo-600 accordion-active:text-indigo-600 accordion-active:rotate-180' width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-    <path d='M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'></path>
-  </svg>
-  </button>
-  <div id='basic-collapse-one-default' class='accordion-content w-full px-0 overflow-hidden pr-4 ' aria-labelledby='basic-heading-one-default'>
-  <p class='text-base text-gray-600 leading-6'>To create an account, find the 'Sign up' or 'Create account' button, fill out the registration form with your personal information, and click 'Create account' or 'Sign up.' Verify your email address if needed, and then log in to start using the platform.</p>
-  </div>
-  </div>
-  <div class='accordion py-4 border-b border-solid border-gray-200' id='basic-heading-two-default'>
-  <button class='accordion-toggle group  inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600' aria-controls='basic-collapse-two-default'>
-  <h5> Have any trust issue? </h5>
-  <svg class='text-gray-900 transition duration-500 group-hover:text-indigo-600 accordion-active:text-indigo-600  accordion-active:rotate-180' width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-    <path d='M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'></path>
-  </svg>
-  </button>
-  <div id='basic-collapse-two-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 ' aria-labelledby='basic-heading-two-default'>
-  <p class='text-sm text-gray-500 leading-6'>Our focus on providing robust and user-friendly content management capabilities ensures that you can manage your content with confidence, and achieve your content marketing goals with ease.</p>
-  </div>
-  </div>
-  <div class='accordion py-4 border-b border-solid border-gray-200' id='basic-heading-three-default'>
-  <button class='accordion-toggle group  inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600' aria-controls='basic-collapse-three-default'>
-  <h5> How can I reset my password? </h5>
-  <svg class='text-gray-900 transition duration-500 group-hover:text-indigo-600 accordion-active:text-indigo-600  accordion-active:rotate-180' width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-    <path d='M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'></path>
-  </svg>
-  </button>
-  <div id='basic-collapse-three-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 ' aria-labelledby='basic-heading-three-default'>
-  <p class='text-sm text-gray-500 leading-6'>Our focus on providing robust and user-friendly content management capabilities ensures that you can manage your content with confidence, and achieve your content marketing goals with ease.</p>
-  </div>
-  </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="itemParent join join-vertical  w-full">
-      <div class=" collapse collapse-arrow join-item  bg-white">
-        <input type="radio" name="my-accordion-4" checked="checked" />
-        <div class="collapse-title font-semibold">
+    <div class=" flex flex-col gap-y-4 ">
+      <div class="collapse collapse-arrow bg-white  border acardionCard">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title font-semibold montserrat-600 text-[#293840]">
           Sizning kompaniyangiz xizmatlaridan qanday foydalanishim mumkin?
         </div>
-        <div class="collapse-content text-sm">
+        <div class="collapse-content text-sm montserrat-500 text-[#293840de]">
           Avvalo, sizga qanday yordam kerakligini tushunishimiz kerak. Iltimos,
           aloqa ma'lumotlaringizni qoldiring va menejerlarimiz keyingi ish kuni
           ichida siz bilan bog'lanadi.
         </div>
       </div>
-      <div class="item collapse collapse-arrow join-item border-base-300  bg-white">
-        <input type="radio" name="my-accordion-4" />
-        <div class="collapse-title font-semibold">
+      <div class="collapse collapse-arrow bg-white  border acardionCard">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold montserrat-600 text-[#293840]">
           Meni qaysi davlatlarga ishga yuborishingiz mumkin?
         </div>
-        <div class="collapse-content text-sm">
+        <div class="collapse-content text-sm montserrat-500 text-[#293840de]">
           Ayni paytda biz Polsha, Litva, Latviya, Chexiya, Slovakiya, Saudiya
           Arabistoni, Janubiy Koreya, Yaponiya kabi mamlakatlarda mehnat
           shartnomalariga egamiz.
         </div>
       </div>
-      <div class="item collapse collapse-arrow join-item border-base-300 border bg-white">
-        <input type="radio" name="my-accordion-4" />
-        <div class="collapse-title font-semibold">
+      <div class="collapse collapse-arrow bg-white  border acardionCard">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold montserrat-600 text-[#293840]">
           Qaysi hududlarda ishlaysiz?
         </div>
-        <div class="collapse-content text-sm">
+        <div class="collapse-content text-sm montserrat-500 text-[#293840de]">
           Toshkentda rasmiy ofisimiz bor.
         </div>
       </div>
-      <div class="item collapse collapse-arrow join-item border-base-300 border bg-white">
-        <input type="radio" name="my-accordion-4" />
-        <div class="collapse-title font-semibold">
-          Shartnoma tuzish tartibi qanday?
+      <div class="collapse collapse-arrow bg-white  border acardionCard">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title font-semibold montserrat-600 text-[#293840]">
+          Shartnoma tuzish tartibi qanday.?
         </div>
-        <div class="collapse-content text-sm">
+        <div class="collapse-content text-sm montserrat-500 text-[#293840de]">
           Biz bilan o'zingiz uchun qulay bo'lgan har qanday usulda
           bog'lanishingiz mumkin: bizga telefon orqali qo'ng'iroq qiling yoki
           raqamingizni qoldirishingiz mumkin, biz sizga qo'ng'iroq qilamiz.
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </section>
-
-
-
-
-
-

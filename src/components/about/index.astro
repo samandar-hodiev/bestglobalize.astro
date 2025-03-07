@@ -1,6 +1,5 @@
 ---
 import "./_style.scss";
-const AboutFoto = "../../../public/team.png";
 ---
 
 <section id="about" class="w-full h-auto bg-slate-100 py-20">
@@ -8,33 +7,30 @@ const AboutFoto = "../../../public/team.png";
     <div class="flex items-center justify-between">
       <div class="w-[500px] h-[500px] relative ">
         <img
-          src={AboutFoto}
+          src="/public/team.png"
           alt="img"
           class="absolute w-[500px] h-[500px] left-0 top-0 rounded"
         />
         <div
-          class="imgSibling absolute right-[-50px] bottom-[40px] w-[270px] h-[210px] bg-[#060040] rounded pt-12 px-6 border-2 border-white"
+          class="imgSibling absolute right-[-50px] bottom-[40px] w-[270px] h-[210px] bg-[#26343D] rounded pt-12 px-6 border-2 border-white montserrat-700"
         >
-          <p class="text-4xl text-[#FFFFFF] font-bold">7000</p>
-          <p class="text-xl text-[#FFFFFF] leading-12 font-bold">
+          <p class="text-4xl text-[#FFFFFF] font-bold">6700</p>
+          <p class="text-lg text-[#FFFFFF] leading-12">
             Dan ko'proq bandlik
           </p>
         </div>
       </div>
       <div class="w-[600px] h-[500px] flex flex-col gap-y-7">
-        <span class="text-[#060040] font-medium uppercase">
+        <span class="text-[#060040] font-medium uppercase montserrat-500">
           Biz haqimizda
         </span>
-        <p class="text-[#262B3F] text-4xl font-bold">
+        <p class="text-[#262B3F] text-4xl font-bold montserrat-600">
           Har bir nomzodga nisbatan ehtiyotkorona munosabat
         </p>
-        <p class="text-[#9B9B9B] font-normal pr-23">
+        <p class="text-[#9B9B9B] font-normal pr-23 montserrat-400">
           Biz xizmatning yuqori sifatini kafolatlaymiz. Kompaniyamiz ko‘p yillik
           tajriba va professionallikka ega
         </p>
-        <!-- <button class="btn w-[140px] text-sm">
-          <span class="text-white"> Ko'proq o'qish </span>
-        </button> -->
       </div>
     </div>
   </div>

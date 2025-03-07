@@ -9,10 +9,10 @@ import { information } from "@mocks/index";
       <div
         class="flex flex-col gap-y-6 w-[700px] bg-[#00000079] p-4 rounded-xl"
       >
-        <p class="text-center text-xl font-bold text-white">
+        <p class="text-center text-xl font-bold text-white montserrat-600">
           Bizning Afzalliklar
         </p>
-        <p class="text-center text-md text-white">
+        <p class="text-center text-md text-white montserrat-500">
           Professional jamoa O‘zbekiston Respublikasi Bandlik va kambag‘allikni
           qisqartirish vazirligi tomonidan berilgan 607235-sonli rasmiy
           litsenziyamiz bor
@@ -22,7 +22,7 @@ import { information } from "@mocks/index";
         {
           information.map((item: any) => {
             return (
-              <div class="bg-[#00000079] rounded-xl p-4 w-[270px] hover:cursor-pointer flex flex-col justify-center items-center gap-y-4 transform hover:scale-110">
+              <div class="bg-[#00000079] montserrat-500 rounded-xl p-4 w-[270px] hover:cursor-pointer flex flex-col justify-center items-center gap-y-4 transform hover:scale-99">
                 <span class="text-[#FFFFFF] text-6xl">
                   <i class={item?.icon} />
                 </span>

@@ -3,8 +3,9 @@
 }
 
 .serviseCard:hover {
-    background: #060040;
+    background: #26343D;
     transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
 }
 
 .serviseCard span i {
